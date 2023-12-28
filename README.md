@@ -1,5 +1,5 @@
 # nostr-noop-relays-wasm
-A collection of [no-op Nostr relays](https://github.com/akiomik/nostr-noop-relays?tab=readme-ov-file) runs on WebAssembly.
+A collection of [no-op Nostr relays](https://github.com/akiomik/nostr-noop-relays?tab=readme-ov-file) run on WebAssembly.
 
 For instructions for building and running relay impls, see README in respective directories.
 
