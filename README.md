@@ -5,10 +5,11 @@ For instructions for building and running relay impls, see README in respective 
 
 ## List of Implementations
 
-| Target Wasm Runtime | [WASI Sockets](https://github.com/WebAssembly/wasi-sockets) Impl. | Impl. Details |
+| Target Wasm Runtime | Language | Impl. Details |
 |--|--|--|
-| [WasmEdge](https://wasmedge.org/docs/) | [wasmedge_wasi_socket](https://github.com/second-state/wasmedge_wasi_socket) | Rust, tokio, tungstenite |
-| [Wasmer](https://wasmer.io/) + [WASIX](https://wasix.org/) | WASIX | Rust, tokio, tungstenite |
+| [WasmEdge](https://wasmedge.org/docs/) | Rust | tokio, tungstenite(witu both WasmEdge customized, based on [wasmedge_wasi_socket](https://github.com/second-state/wasmedge_wasi_socket)) |
+| [Wasmtime]() | Rust  | tokio(with unstable `net` feature support for WASI), tungstenite |
+| [Wasmer](https://wasmer.io/) + [WASIX](https://wasix.org/) | Rust | tokio(with WASIX customized), tungstenite |
 
 
 ## What is the no-op relay?
