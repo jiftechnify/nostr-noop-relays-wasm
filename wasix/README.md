@@ -1,6 +1,8 @@
 # Nostr no-op relay for Wasmer + WASIX
 
 ## How to Build and Run (Single-threaded version)
+Prerequisite: Rust programming environment (`rustc`, `cargo`, `rustup`) has been installed.
+
 1. Follow the instrcution [here](https://docs.wasmer.io/install) to install Wasmer CLI.
 2. Follow the instruction [here](https://wasix.org/docs/language-guide/rust/installation) to install `cargo-wasix`.
 3. Build the Wasm module by: 

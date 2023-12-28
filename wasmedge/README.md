@@ -1,4 +1,4 @@
-# Nostr no-op relay for WasmEdge
+# Nostr no-op relay for WasmEdge (in Rust)
 
 ## How to Build and Run
 1. Follow the steps [here](https://wasmedge.org/docs/develop/rust/setup/) to setup WasmEdge & Rust toolchain.
