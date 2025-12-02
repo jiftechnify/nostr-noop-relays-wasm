@@ -5,6 +5,6 @@
 2. Build and run the Wasm module by following commands: 
 
 ```bash
-cargo build --target wasm32-wasi --release
-wasmedge target/wasm32-wasi/release/noop-nrelay-wasmedge.wasm
+cargo build --target wasm32-wasip1 --release
+wasmedge target/wasm32-wasip1/release/noop-nrelay-wasmedge.wasm
 ```

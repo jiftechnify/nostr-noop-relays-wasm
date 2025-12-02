@@ -35,7 +35,7 @@ func main() {
 				continue
 			}
 
-			fmt.Printf("[%s] received message: %s", r.RemoteAddr, string(recv))
+			fmt.Printf("[%s] received message: %s\n", r.RemoteAddr, string(recv))
 			c2r := nostr.ParseC2RMsg(recv)
 			if c2r == nil {
 				continue
