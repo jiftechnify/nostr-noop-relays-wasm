@@ -7,8 +7,9 @@ Prerequisite: Go >= 1.21 and `make` (build tool) have been installed.
 2. Build and run the Wasm module by following commands: 
 
 ```bash
-make build
-# it executes: GOARCH=wasm GOOS=wasip1 go build -o noop-nrelay-wasmedge-go.wasm main.go
+# build and run on wasmedge in one go
+make run
 
-wasmedge noop-nrelay-wasmedge-go.wasm
+# you can also build only:
+make build
 ```

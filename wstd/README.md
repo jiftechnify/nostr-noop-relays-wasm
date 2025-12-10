@@ -24,7 +24,7 @@ You can run the built Wasm module on any Wasm runtimes supporting WASI 0.2. As o
 Install wasmtime by following [the instruction](https://wasmtime.dev/).
 
 ```bash
-wasmtime run -S inherit-network=y  target/wasm32-wasip2/release/noop-relay.wasm
+wasmtime run -S inherit-network=y  target/wasm32-wasip2/release/noop-nrelay-wstd.wasm
 ```
 
 ### Run on jco
@@ -32,5 +32,5 @@ wasmtime run -S inherit-network=y  target/wasm32-wasip2/release/noop-relay.wasm
 Install jco by following [the instruction](https://github.com/bytecodealliance/jco?tab=readme-ov-file#quickstart).
 
 ```bash
-jco run target/wasm32-wasip2/release/noop-relay.wasm
+jco run target/wasm32-wasip2/release/noop-nrelay-wstd.wasm
 ```
