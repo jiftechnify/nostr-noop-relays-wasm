@@ -284,6 +284,17 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "f52b00d39961fc5b2736ea853c9cc86238e165017a493d1d5c8eac6bdc4cc273"
 
 [[package]]
+name = "noop-relay"
+version = "0.0.0"
+dependencies = [
+ "futures",
+ "serde_json",
+ "valq",
+ "wstd",
+ "wstd-tungstenite",
+]
+
+[[package]]
 name = "parking"
 version = "2.2.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -519,17 +530,6 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "0562428422c63773dad2c345a1882263bbf4d65cf3f42e90921f787ef5ad58e7"
 dependencies = [
  "wit-bindgen",
-]
-
-[[package]]
-name = "wasmtime-rust-wstd"
-version = "0.0.0"
-dependencies = [
- "futures",
- "serde_json",
- "valq",
- "wstd",
- "wstd-tungstenite",
 ]
 
 [[package]]
